@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio de Boxeo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: rgb(230, 30, 30);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(180, 25, 25);
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+        section {
+            padding: 20px;
+        }
+        aside {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        article {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: rgb(180, 25, 25);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Centra las imágenes */
+            width: 300px; /* Ancho fijo para todas las imágenes */
+            height: 200px; /* Alto fijo para todas las imágenes */
+            object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gimnasio de Boxeo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#classes">Clases</a></li>
+            <li><a href="#history">Historia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2><center>Bienvenido al Gimnasio de Boxeo</center></h2>
+        <p>Únete a nosotros para mejorar tu técnica de boxeo y ponerte en forma. Ofrecemos clases para todos los niveles, desde principiantes hasta avanzados.</p>
+        <img src="sparring.jpg" alt="Entrenamiento de boxeo" loading="lazy">
+    </section>
+    <section id="classes">
+        <h2>Clases Disponibles</h2>
+        <article>
+            <h3>Clases de Boxeo para Principiantes</h3>
+            <p>Aprende los fundamentos del boxeo en un ambiente amigable y motivador.</p>
+            <img src="repichi.jpg" alt="Clase de boxeo para principiantes" loading="lazy">
+        </article>
+        <article>
+            <h3>Entrenamiento Avanzado</h3>
+            <p>Perfecciona tus habilidades y prepárate para competiciones con entrenadores expertos.</p>
+            <img src="mochita.jpg" alt="Entrenamiento avanzado de boxeo" loading="lazy">
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gimnasio de Boxeo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
